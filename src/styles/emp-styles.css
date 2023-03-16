@@ -1,0 +1,66 @@
+.eachRow{
+    background-color: antiquewhite;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    margin: 10px;
+    padding: 10px;
+}
+
+.form-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-form{
+    background-color: rgb(66, 102, 116);
+    margin: 10px;
+}
+
+.newEmpBtn{
+    padding: 10px;
+    align-self: center;
+}
+.emp-table{
+    padding: 10px;
+    margin: 10px;
+}
+
+.editBtn, .delBtn, .updateBtn, .newEmpBtn{
+    padding: 7px 12px;
+    cursor: pointer;
+    margin: 5px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 7px;
+    
+}
+
+.newEmpBtn{
+    background-color: rgb(30, 30, 88);
+    color: aliceblue;
+}
+.delBtn{
+    background-color: rgb(204, 51, 51);
+}
+
+.editBtn{
+    background-color: rgb(45, 151, 45);
+}
+
+input{
+    margin: 5px;
+}
+
+button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
